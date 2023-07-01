@@ -1,6 +1,6 @@
 package com.main.core.sl
 
-import com.main.core.presentation.DispatchersList
+import com.main.core.presentation.core.DispatchersList
 
 interface Core {
 

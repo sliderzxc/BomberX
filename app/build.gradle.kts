@@ -57,6 +57,9 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0")
+    // Navigation
+    implementation(Dependencies.Navigation.navigationUi)
+    implementation(Dependencies.Navigation.navigationFragment)
     // OkHttp
     implementation(Dependencies.OkHttp.core)
     // Modules

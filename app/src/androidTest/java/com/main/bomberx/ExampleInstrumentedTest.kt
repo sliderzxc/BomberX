@@ -1,4 +1,4 @@
-package com.main.androidbomber
+package com.main.bomberx
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

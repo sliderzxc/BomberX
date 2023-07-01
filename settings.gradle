@@ -13,7 +13,7 @@ dependencyResolutionManagement {
         maven { url("https://jitpack.io") }
     }
 }
-rootProject.name = "AndroidBomber"
+rootProject.name = "BomberX"
 include ':app'
 include ':core'
 include ':bomber'

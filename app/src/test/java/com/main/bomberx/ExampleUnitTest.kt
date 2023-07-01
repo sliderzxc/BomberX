@@ -1,4 +1,4 @@
-package com.main.androidbomber
+package com.main.bomberx
 
 import org.junit.Test
 

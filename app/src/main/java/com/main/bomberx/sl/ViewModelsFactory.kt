@@ -1,4 +1,4 @@
-package com.main.androidbomber.sl
+package com.main.bomberx.sl
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

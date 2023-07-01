@@ -1,4 +1,4 @@
-package com.main.core.presentation
+package com.main.core.presentation.core
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

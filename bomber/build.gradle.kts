@@ -39,4 +39,9 @@ dependencies {
     implementation(Dependencies.Android.constraintLayout)
     implementation(Dependencies.Android.material)
     implementation(Dependencies.Android.fragment)
+    // Navigation
+    implementation(Dependencies.Navigation.navigationUi)
+    implementation(Dependencies.Navigation.navigationFragment)
+    // Modules
+    implementation(project(":core"))
 }
