@@ -2,6 +2,9 @@
     <style name="Theme.BomberX" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorSecondary">@color/secondary</item>
+        <item name="colorButtonNormal">@color/button_normal</item>
+        <item name="colorOnSurface">@color/surface</item>
+        <item name="colorOnTertiary">@color/surface_dark</item>
         <item name="android:navigationBarColor">@color/primary</item>
         <item name="android:statusBarColor">@color/primary</item>
     </style>
