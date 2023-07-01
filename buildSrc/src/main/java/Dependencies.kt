@@ -26,10 +26,6 @@ object Dependencies {
         const val core = "com.squareup.okhttp3:logging-interceptor:4.10.0"
     }
 
-    object PhoneInputText {
-        const val core = "com.fredporciuncula:phonemoji:1.5.2"
-    }
-
     object UnitTesting {
         object JUnit {
             const val core = "junit:junit:4.13.2"

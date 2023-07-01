@@ -61,4 +61,5 @@ dependencies {
     implementation(Dependencies.OkHttp.core)
     // Modules
     implementation(project(":core"))
+    implementation(project(":bomber"))
 }
