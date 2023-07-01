@@ -4,6 +4,7 @@ object Config {
     const val targetSdk = 33
 
     const val appModulePackageName = "com.main.androidbomber"
+    const val coreModulePackageName = "com.main.core"
 
     const val versionName = "1.0"
     const val versionCode = 1

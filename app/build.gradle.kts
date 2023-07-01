@@ -13,7 +13,6 @@ android {
         targetSdk = Config.targetSdk
         versionCode = Config.versionCode
         versionName = Config.versionName
-        buildFeatures.buildConfig = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -54,13 +53,12 @@ dependencies {
     androidTestImplementation(Dependencies.AndroidTesting.Espresso.core)
     androidTestImplementation(Dependencies.AndroidTesting.AndroidX.core)
     androidTestImplementation(Dependencies.AndroidTesting.Barista.core)
-    // Navigation
-    implementation(Dependencies.Navigation.navigationFragment)
-    implementation(Dependencies.Navigation.navigationUi)
     // Retrofit, i don't use here buildSrc, throw some error faced with retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0")
     // OkHttp
     implementation(Dependencies.OkHttp.core)
+    // Modules
+    implementation(project(":core"))
 }
