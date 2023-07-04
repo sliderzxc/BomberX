@@ -5,6 +5,8 @@ object Config {
 
     const val appModulePackageName = "com.main.bomberx"
     const val coreModulePackageName = "com.main.core"
+    const val bomberModulePackageName = "com.main.bomber"
+    const val servicesModulePackageName = "com.main.services"
 
     const val versionName = "1.0"
     const val versionCode = 1

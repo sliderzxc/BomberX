@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import com.main.core.databinding.CountryCodeRowBinding
+import com.main.bomber.databinding.CountryCodeRowBinding
 
 class CountryCodeAdapter(
     private val context: Context,

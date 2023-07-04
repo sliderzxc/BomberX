@@ -53,10 +53,6 @@ dependencies {
     androidTestImplementation(Dependencies.AndroidTesting.Espresso.core)
     androidTestImplementation(Dependencies.AndroidTesting.AndroidX.core)
     androidTestImplementation(Dependencies.AndroidTesting.Barista.core)
-    // Retrofit, i don't use here buildSrc, throw some error faced with retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0")
     // Navigation
     implementation(Dependencies.Navigation.navigationUi)
     implementation(Dependencies.Navigation.navigationFragment)
@@ -65,4 +61,5 @@ dependencies {
     // Modules
     implementation(project(":core"))
     implementation(project(":bomber"))
+    implementation(project(":datasource:services"))
 }

@@ -26,6 +26,10 @@ object Dependencies {
         const val core = "com.squareup.okhttp3:logging-interceptor:4.10.0"
     }
 
+    object Faker {
+        const val core = "com.github.javafaker:javafaker:1.0.2"
+    }
+
     object UnitTesting {
         object JUnit {
             const val core = "junit:junit:4.13.2"

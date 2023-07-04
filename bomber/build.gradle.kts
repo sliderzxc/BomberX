@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = Config.coreModulePackageName
+    namespace = Config.bomberModulePackageName
     compileSdk = Config.compileSdk
 
     defaultConfig {
@@ -42,6 +42,11 @@ dependencies {
     // Navigation
     implementation(Dependencies.Navigation.navigationUi)
     implementation(Dependencies.Navigation.navigationFragment)
+    // Retrofit, i don't use here buildSrc, throw some error faced with retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0")
     // Modules
     implementation(project(":core"))
+    implementation(project(":datasource:services"))
 }
